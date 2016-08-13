@@ -1,0 +1,30 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'jsvisualizer/app.css' %}" />
+
+<div class="wrapper">
+  <div class="canvaswrap">
+    <canvas class="visualizer"></canvas>
+  </div>
+  <!-- visualizer buttons -->
+  <div class="visbuttons">
+    <button class="mute-button">mute</button>
+
+    <!-- visualizer mode menu -->
+    <label>Visualizer modes</label>
+    <select id="visual" name="visual">
+      <option value="sinewave" selected="">Sinewave</option>
+      <option value="frequencybars">Frequency Bars</option>
+      <option value="sinewave_enchanced">Sinewave Enhanced</option>
+      <option value="off">Off</option>
+    </select>
+    <label>Audio modes</label>
+    <select id="voice">
+      <option value="distortion">Distortion</option>
+      <option value="biquad">BiquadFilter</option>
+      <option value="off" selected="">None</option>
+    </select>
+    <p><strong>press [F] for fullscreen</strong></p>
+  </div>
+</div>
+<script src="{% static 'jsvisualizer/visualizer.js' %}"></script>
