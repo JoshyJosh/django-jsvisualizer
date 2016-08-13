@@ -123,5 +123,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "jsvisualizer/static"),
 ]
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipMainfestStaticFilesStorage'
