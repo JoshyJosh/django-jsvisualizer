@@ -82,4 +82,5 @@ Twisted-Web==13.2.0
 urllib3==1.16
 uTidylib==0.2
 virtualenv==15.0.2
+whitenoise==3.2.1
 zope.interface==4.0.5
