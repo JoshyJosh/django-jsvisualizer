@@ -32,4 +32,5 @@ unattended-upgrades==0.1
 urllib3==1.7.1
 virtkey==0.63.0
 virtualenv==15.0.2
+whitenoise==3.2.1
 xkit==0.0.0
